@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(138, 240, 138);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px ;
+ }
+.container{
+    width: 33vw;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2px;
+    box-shadow:0px 3px 14px 8px rgba(0, 0, 0, 0.24);
+}
+
+input{
+      margin-bottom: 10px;
+      font-size: 10px;
+      display:block;
+      border: transparent;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 50px;
+      border-radius: 3px;
+      background-color: rgb(245, 245, 245);
+      border: none;
+}
+button{
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(61, 184, 61);
+    border:hidden;
+    color: white;
+    font-size: 8px;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    gap: 3px;
+}
+.text1 a{
+    text-decoration: none;
+}
+.text1 p{
+    color: grey;
+}
